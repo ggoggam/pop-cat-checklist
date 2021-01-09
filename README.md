@@ -1,16 +1,20 @@
-# checklist
+# Pop-cat Checklist
+A simple to-do checklist application written in Flutter framework (Dart). 
 
-A new Flutter project.
+## Features
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Clean Design
+* Based on Material Design schematics with clean fonts (Nanum Gothic Square).
+### Custom Checkbox
+* Customized checkbox with pop-cat as a checkbox (with sound effects!).
+### Reorderable List
+* Reorderable list view (hold and drag each checklist item to reorder)
+### Color Assignment
+* Assign color for each checklist item for identifying items with ease.
+### Priority Pins
+* High-priority items can be pinned.
+### Sorting
+* Items can be sorted upon refresh (refresh can be done by pulling down the list)
+* Sorting is done in the order of: 1. pinned item 2. unchecked item 3. time of creation.
+### Data Persistence
+* Quitting the app does not re-initialize the checklist.

@@ -1,20 +1,12 @@
 # Pop-cat Checklist
 A simple to-do checklist application written in Flutter framework (Dart). 
 
-## Features
+## Notes
+There are few features that were requested by the "commissioner". 
 
-### Clean Design
-* Based on Material Design schematics with clean fonts (Nanum Gothic Square).
-### Custom Checkbox
-* Customized checkbox with pop-cat as a checkbox (with sound effects!).
-### Reorderable List
-* Reorderable list view (hold and drag each checklist item to reorder)
-### Color Assignment
-* Assign color for each checklist item for identifying items with ease.
-### Priority Pins
-* High-priority items can be pinned.
-### Sorting
-* Items can be sorted upon refresh (refresh can be done by pulling down the list)
-* Sorting is done in the order of: 1. pinned item 2. unchecked item 3. time of creation.
-### Data Persistence
-* Quitting the app does not re-initialize the checklist.
+* Must have sound effect when "popping" the cat.
+* Popping the cat does not necessarily mean the item should be removed.
+* Removing the item can be done by sliding to side way.
+* Manual rearrangement of items can be done with hold-and-drag.
+* Should have color codes for binning items.
+* Items can be sorted by pulling down the list, which sorts item according to this order (pinned, done, name).
